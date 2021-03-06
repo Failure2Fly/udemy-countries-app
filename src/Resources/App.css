@@ -1,0 +1,29 @@
+*{
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+}
+body{
+  min-height: 100%;
+}
+button{
+  background-color: #00A0D7;
+  border-radius: 10px;
+  padding: 10px;
+}
+.countryDetails{
+  display: flex;
+  flex-wrap: wrap;
+}
+.indvCountry{
+  border: solid black 2px;
+  margin: 20px;
+  padding: 30px;
+  text-align: center;
+}
+.flag{
+  border: solid 1px black;
+  height: 200px;
+  width: 300px;
+}
